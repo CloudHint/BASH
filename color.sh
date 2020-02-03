@@ -12,7 +12,7 @@ echo 'export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033
 echo "export CLICOLOR=1" >> $DEST
 echo "export LSCOLORS=ExFxBxDxCxegedabagacad" >> $DEST
 
-# restart the .bash_profil e
+# restart the .bash_profile
 . $DEST
 
 # run the script like following so .bash_profile will restart
