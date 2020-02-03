@@ -13,7 +13,7 @@ echo "export CLICOLOR=1" >> $DEST
 echo "export LSCOLORS=ExFxBxDxCxegedabagacad" >> $DEST
 
 # restart the .bash_profile
-. $DEST
+#. $DEST
 
 # run the script like following so .bash_profile will restart
 # . ./color.sh
